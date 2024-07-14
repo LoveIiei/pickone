@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User Picker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random User Picker</h1>
+      <label for="user1">Enter User Names: </label>
+      <br />
+      <input type="text" id="user1" value="David" class="user-input" /><br />
+      <input type="text" id="user2" value="Cindy" class="user-input" /><br />
+      <input type="text" id="user3" value="Owen" class="user-input" /><br />
+      <div class="button-group">
+        <button onclick="addUser()">Add User</button>
+        <button onclick="anotherUser()">Another User</button>
+        <button onclick="pickRandomUser()">Pick Random User</button>
+      </div>
+      <p id="userList" class="user-list"></p>
+    </div>
+    <audio id="beepSound" src="beep.wav"></audio>
+    <audio id="winSound" src="win.wav"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
