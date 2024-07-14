@@ -61,3 +61,17 @@ button:hover {
   white-space: pre-line;
   font-family: monospace;
 }
+
+.manual {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.manual h2 {
+  margin-bottom: 10px;
+}
+
+.manual h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
